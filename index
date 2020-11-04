@@ -407,26 +407,50 @@ width: 100%;
 }</style>
 </head>
 <body>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-   
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Food, LCC<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="Chicken">Chicken</a></li>
-            <li><a href="Beef">Beef</a></li>
-            <li><a href="Sushi">Sushi</a></li>
-          </ul>
-        </li>
-      </ul>            
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  <nav class="navbar" id="top">
+
+<div class="container-fluid">
+
+
+
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+<span class="icon-bar"></span>
+
+<span class="icon-bar"></span>
+
+<span class="icon-bar"></span> 
+
+</button>
+
+<a class="navbar-brand" href="#">Food, LLC</a>
+
+</div>
+
+
+
+<div class="collapse" id="myNavbar">
+
+<ul class="nav navbar-nav visible-xs">
+
+<li><a class="menu-item" href="Chicken">Chicken</a></li>
+
+<li><a class="menu-item" href="Beef">Beef</a></li> 
+
+<li><a class="menu-item" href="Sushi">Sushi</a></li> 
+
+</ul>
+
+</div>
+
+
+
+</div>
+
 </nav>
+
 
   <h1 class="text-center">Our menu</h1>
 <div class="container-fluid">
